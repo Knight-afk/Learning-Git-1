@@ -1,14 +1,17 @@
 #include<stdio.h>
-#include<conio.h>
 
-int main() {
+
+int main()
+
+{
    int a, b, sum;
 
-   printf("\nEnter two no: ");
-   scanf("%d %d", &a, &b);
+   printf("Enter two no:\n");
+   scanf("\n%d %d", &a, &b);
 
    sum = a + b;
 
-   printf("Sum : %d", sum);
+   printf("\nSum : %d", sum);
+   printf("\nmultiplication of %d and %d are : %d\n",a,b,a*b);
   return(0);
 }
